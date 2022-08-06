@@ -26,9 +26,7 @@ void weekly()
     std::cin >> earningsYear;
     
     std::cout << "How much did "<< name << " earn this week: ";
-    
     std::cin >> earnings;
-    
     earningsTotal = earnings + earningsYear;
     
     if (earningsTotal <= 12.570f)
@@ -46,4 +44,21 @@ void weekly()
                 "\n Total take home after tax £" << grossPay;
     }
    
+}
+
+// Emergency tax
+void weeklyET()
+{
+        long double earnings;
+        long double earningsYear;
+        long double earningsTotal;
+
+        std::cout << "How much did "<< name << " earn this week: ";
+        std::cin >> earnings;
+            
+        long double tax = earnings * emergencyTC / 100.0f;
+        long double grossPay = earnings - tax;
+
+        std::cout << name << " has earned " << earnings << "\n Tax amount for this employee is set to emergency %" << emergencyTC << 
+                "\n Net pay £" << earnings << "\n Total Taxed £" << tax << std::endl << " Gross pay £" <<grossPay << std::endl;
 }

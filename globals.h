@@ -11,7 +11,7 @@
 
 extern std::string name;
 extern long double taxAmount, tc, earningsYear, earnings, earningsTotal;
-extern bool belowPATax;
+extern bool belowPATax, emergancyTax;
 
 #endif /* GLOBALS_H */
 

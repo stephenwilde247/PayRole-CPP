@@ -19,6 +19,9 @@ void durationSlection();
 void tcSelection();
 void abovePersonalCheckWeek();
 void payFrequency();
+void monthly();
+void weeklyET();
+
 int main();
 
 #endif /* INCLUDES_H */

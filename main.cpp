@@ -24,12 +24,6 @@ void employeeName()
     name = inputs.getString();
 }
 
-void taxCode()
-{
-    stringInputs taxCode;
-    std::cout << "Enter tax code";
-}
-
 int main()
 {
     employeeName();

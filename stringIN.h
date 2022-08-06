@@ -8,7 +8,6 @@
 #ifndef STRINGIN_H
 #define STRINGIN_H
 
-
 //String Class
 class stringInputs{
     public: 
@@ -16,15 +15,13 @@ class stringInputs{
         {
             name = x;
         }
-        std::string getString(){
+        std::string getString()
+        {
             return name;
         }  
 private:
     std::string name;
 };
-
-
-
 
 #endif /* STRINGIN_H */
 
